@@ -189,7 +189,7 @@ const movies = [
         <img src="${movie.poster}" alt="${title}" class="poster" />
         <div class="details">
           <h3 class="title">${title}</h3>
-          <p><strong>Date:</strong> ${movie.date}</p>
+          <p><strong>Date:</strong> ${new Date(movie.date).toLocaleDateString()}</p>
           <p><strongRating:</strong> ${movie.rating} ⭐</p>
         </div>
       `;
