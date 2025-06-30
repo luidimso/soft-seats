@@ -186,7 +186,7 @@ const movies = [
       const title = currentLanguage === "PT" ? movie.titlePT : movie.titleEN;
   
       card.innerHTML = `
-        <img src="images/${movie.poster}" alt="${title}" class="poster" />
+        <img src="${movie.poster}" alt="${title}" class="poster" />
         <div class="details">
           <h3 class="title">${title}</h3>
           <p><strong>Date:</strong> ${movie.date}</p>
