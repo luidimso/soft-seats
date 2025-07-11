@@ -2,6 +2,14 @@
 
 const movies = [
     {
+        titlePT: "SUPERMAN",
+        titleEN: "SUPERMAN",
+        date: "2025-07-10",
+        rating: 5,
+        poster: "https://upload.wikimedia.org/wikipedia/pt/3/32/Superman_%282025_film%29_poster.jpg",
+        comment: ""
+      },
+    {
         titlePT: "COMO TREINAR O SEU DRAGÃO",
         titleEN: "HOW TO TRAIN YOUR DRAGON",
         date: "2025-06-15",
