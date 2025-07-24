@@ -2,6 +2,14 @@
 
 const movies = [
     {
+        titlePT: "QUARTETO FANTASTICO: PRIMEIROS PASSOS",
+        titleEN: "FANTASTIC FOUR: FIRST STEPS",
+        date: "2025-07-23",
+        rating: 5,
+        poster: "https://lumiere-a.akamaihd.net/v1/images/au_movies_marvel_fantasticfourfirststeps_official_poste_daf083fc.jpeg",
+        comment: ""
+      },
+    {
         titlePT: "SUPERMAN",
         titleEN: "SUPERMAN",
         date: "2025-07-10",
