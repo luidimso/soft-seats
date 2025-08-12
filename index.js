@@ -2,6 +2,14 @@
 
 const movies = [
     {
+        titlePT: "A HORA DO MAL",
+        titleEN: "WEAPONS",
+        date: "2025-08-11",
+        rating: 3,
+        poster: "https://pad.mymovies.it/filmclub/2024/05/101/locandina.jpg",
+        comment: ""
+      },
+    {
         titlePT: "QUARTETO FANTASTICO: PRIMEIROS PASSOS",
         titleEN: "FANTASTIC FOUR: FIRST STEPS",
         date: "2025-07-23",
