@@ -2,6 +2,22 @@
 
 const movies = [
     {
+        titlePT: "A LONGA MARCHA: CAMINHE OU MORRA 🇹🇭",
+        titleEN: "THE LONG WALK 🇹🇭",
+        date: "2025-09-14",
+        rating: 5,
+        poster: "https://upload.wikimedia.org/wikipedia/pt/thumb/0/01/The_Long_Walk_%28filme%29.webp/250px-The_Long_Walk_%28filme%29.webp.png",
+        comment: ""
+      },
+    {
+        titlePT: "OS MATERIALISTAS 🇹🇭",
+        titleEN: "THE MATERIALISTS 🇹🇭",
+        date: "2025-09-10",
+        rating: 4,
+        poster: "https://m.media-amazon.com/images/S/pv-target-images/09f3e9f15731ead43fa22b845a662daa6cdb1c22b97505e75e7ecbba2480e7a5.jpg",
+        comment: ""
+      },
+    {
         titlePT: "A HORA DO MAL",
         titleEN: "WEAPONS",
         date: "2025-08-11",
