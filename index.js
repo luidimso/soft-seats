@@ -5,7 +5,7 @@ const movies = [
         titlePT: "UMA BATALHA APÓS A OUTRA",
         titleEN: "ONE BATTLE AFTER ANOTHER",
         date: "2025-09-27",
-        rating: 5,
+        rating: 4,
         poster: "https://ingresso-a.akamaihd.net/prd/img/movie/uma-batalha-apos-a-outra/12e96cac-d31d-47ff-b20a-985ecb2ddbfb.webp",
         comment: ""
       },
