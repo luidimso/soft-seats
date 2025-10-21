@@ -1,12 +1,13 @@
 // scripts.js
 
 const movies = [
+    
     {
-        titlePT: "MALÊS",
-        titleEN: "MALÊS",
-        date: "2025-10-05",
+        titlePT: "O TELEFONE PRETO 2",
+        titleEN: "THE BLACK PHONE 2",
+        date: "2025-10-20",
         rating: 4,
-        poster: "https://static3.moviehub.com.br/fotos/filmes/poster/16159_medio.jpg",
+        poster: "https://ingresso-a.akamaihd.net/prd/img/movie/o-telefone-preto-2/0d0fbad5-6f2e-44dc-a4a8-c9bd2477d6bb.webp",
         comment: ""
       },
     {
