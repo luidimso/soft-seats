@@ -11,6 +11,13 @@ const movies = [
         comment: ""
       },
     {
+        titlePT: "MALÊS",
+        titleEN: "MALÊS",
+        date: "2025-10-05",
+        rating: 4,
+        poster: "https://static3.moviehub.com.br/fotos/filmes/poster/16159_medio.jpg",
+        comment: ""
+      },    {
         titlePT: "UMA BATALHA APÓS A OUTRA",
         titleEN: "ONE BATTLE AFTER ANOTHER",
         date: "2025-09-27",
