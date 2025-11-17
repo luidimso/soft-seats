@@ -1,7 +1,14 @@
 // scripts.js
 
 const movies = [
-    
+    {
+        titlePT: "SE NÃO FOSSE VOCÊ",
+        titleEN: "REGRETTING YOU",
+        date: "2025-11-16",
+        rating: 4,
+        poster: "https://br.web.img3.acsta.net/img/f2/33/f233d41de9a2a00eee2ec2f72d8dfcc7.jpg",
+        comment: ""
+      },
     {
         titlePT: "O TELEFONE PRETO 2",
         titleEN: "THE BLACK PHONE 2",
