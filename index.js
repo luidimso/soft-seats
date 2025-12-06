@@ -253,20 +253,27 @@ const movies = [
       const card = document.createElement("div");
       card.className = "movie-card";
       card.id = `movie-${index}`;
-  
+      let special = false;
+    
+      if (movie.titleEN.includes("icked")) {
+        special = true;
+        card.classList.add("celebration-30"); // aplica no card inteiro
+      }
+    
       const title = currentLanguage === "PT" ? movie.titlePT : movie.titleEN;
-  
+    
       card.innerHTML = `
         <img src="${movie.poster}" alt="${title}" class="poster" />
-        <div class="details">
+        <div class="details ${special ? "celebration-badge" : ""}">
           <h3 class="title">${title}</h3>
           <p><strong>Date:</strong> ${new Date(movie.date).toLocaleDateString()}</p>
-          <p><strongRating:</strong> ${movie.rating} ⭐</p>
+          <p><strong>Rating:</strong> ${movie.rating} ⭐</p>
         </div>
       `;
-  
+    
       container.appendChild(card);
     });
+
   }
   
   function switchLanguage(newLanguage) {
