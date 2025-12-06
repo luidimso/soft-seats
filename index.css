@@ -87,4 +87,66 @@ body {
     font-style: italic;
     color: #555;
   }
+
+/* Classe especial para o 30º filme */
+.movie-card.celebration-30 {
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.4);
+}
+
+/* Efeito de borda animada */
+.movie-card.celebration-30::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 14px;
+  padding: 2px;
+  background: linear-gradient(135deg,
+    #ffd700,
+    #ff7af5,
+    #7af5ff,
+    #7aff9a,
+    #ffd700);
+  background-size: 300% 300%;
+  -webkit-mask: 
+    linear-gradient(#000 0 0) content-box, 
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  animation: borderShift 4s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.movie-card.celebration-30:hover::before {
+  opacity: 1;
+}
+
+@keyframes borderShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Efeito de brilho e tilt no hover */
+.movie-card.celebration-30:hover {
+  transform: perspective(800px) rotateX(2deg) rotateY(-2deg) scale(1.05);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.35), 0 0 30px rgba(255,215,0,0.6);
+}
+
+/* Badge "30" */
+.movie-card.celebration-30 .celebration-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #111;
+  color: #ffd700;
+  border: 2px solid #ffd700;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
   
