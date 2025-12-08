@@ -5,7 +5,7 @@ const movies = [
         titlePT: "WICKED PARTE II",
         titleEN: "WICKED PART II",
         date: "2025-12-07",
-        rating: 4,
+        rating: 3,
         poster: "https://ingresso-a.akamaihd.net/prd/img/movie/wicked-parte-2/59edf70f-92f4-4be7-a8b2-fdfb11d64bcc.webp",
         comment: "MOVIE NUMBER 30."
       },
