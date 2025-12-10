@@ -263,7 +263,7 @@ const movies = [
       card.id = `movie-${index}`;
       let special = false;
     
-      if (movie.titleEN.includes("icked")) {
+      if (movie.titleEN.includes("ICKED")) {
         special = true;
         card.classList.add("celebration-30"); // aplica no card inteiro
       }
