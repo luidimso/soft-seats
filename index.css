@@ -135,22 +135,6 @@ body {
   box-shadow: 0 12px 28px rgba(0,0,0,0.35), 0 0 30px rgba(255,215,0,0.6);
 }
 
-/* Badge "30" */
-.movie-card.celebration-30 .celebration-badge {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background: #111;
-  color: #ffd700;
-  border: 2px solid #ffd700;
-  font-weight: 700;
-  font-size: 14px;
-  padding: 6px 10px;
-  border-radius: 999px;
-  letter-spacing: 0.5px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-}
-
 .details.celebration-badge {
   position: relative; /* Garante que o selo fique visível */
 }
