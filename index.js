@@ -1,14 +1,23 @@
 // scripts.js
 const movies = [
-    {
-        titlePT: "Avatar: Fogo e Cinzas",
-        titleEN: "Avatar: Fire and Ash",
-        date: "2026-01-11",
-        rating: 3,
-        poster: "https://m.media-amazon.com/images/M/MV5BM2FkYjhiMTYtNDk5Ny00NDU1LWE4NmQtM2Q0NWY0NDNkNzNmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        comment: ""
-      }
-]
+  {
+    titlePT: "Avatar: Fogo e Cinzas",
+    titleEN: "Avatar: Fire and Ash",
+    date: "2026-01-11",
+    rating: 3,
+    poster: "https://m.media-amazon.com/images/M/MV5BM2FkYjhiMTYtNDk5Ny00NDU1LWE4NmQtM2Q0NWY0NDNkNzNmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    comment: ""
+  },
+  {
+    titlePT: "A Empregada",
+    titleEN: "The Housemaid",
+    date: "2026-01-25",
+    rating: 4, 
+    poster: "https://m.media-amazon.com/images/M/MV5BMGU0ZThmMDUtYmZjMi00MDk5LWE2NTQtYzQ3NWZjNWZkZGE3XkEyXkFqcGc@._V1_.jpg",
+    comment: ""
+  }
+];
+
 
 
 const movies2025 = [
