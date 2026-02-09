@@ -276,7 +276,7 @@ const movies2025 = [
   
   function updateCounter() {
     const counter = document.getElementById("counter");
-    counter.textContent = `🎬 Movies watched: ${movies.length}`;
+    counter.textContent = `🎬 Movies watched this year: ${movies.length}`;
   }
   
   function renderMovies() {
