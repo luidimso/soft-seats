@@ -15,6 +15,14 @@ const movies = [
     rating: 4, 
     poster: "https://m.media-amazon.com/images/M/MV5BMGU0ZThmMDUtYmZjMi00MDk5LWE2NTQtYzQ3NWZjNWZkZGE3XkEyXkFqcGc@._V1_.jpg",
     comment: ""
+  },
+  {
+    titlePT: "O Som da Morte",
+    titleEN: "Whistle",
+    date: "2026-02-08",
+    rating: 3,
+    poster: "https://assets.multiplan.com.br/Multiplan/filer_public/b0/7b/b07b1775-78e0-4482-9a1b-665c996f9ad3/o-som-da-morte-posterportrait.webp?ims=500x",
+    comment: ""
   }
 ];
 
