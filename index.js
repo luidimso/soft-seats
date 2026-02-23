@@ -23,7 +23,15 @@ const movies = [
     rating: 3,
     poster: "https://assets.multiplan.com.br/Multiplan/filer_public/b0/7b/b07b1775-78e0-4482-9a1b-665c996f9ad3/o-som-da-morte-posterportrait.webp?ims=500x",
     comment: ""
-  }
+  },
+  {
+    titlePT: "O Morro dos Ventos Uivantes",
+    titleEN: "Wuthering Heights",
+    date: "2026-02-15",
+    rating: 4,
+    poster: "https://ingresso-a.akamaihd.net/prd/img/movie/o-morro-dos-ventos-uivantes/c49d48d8-a444-4e81-86cd-18ea1cad5202.webp",
+    comment: ""
+  },
 ];
 
 
