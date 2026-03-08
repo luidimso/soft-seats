@@ -32,6 +32,14 @@ const movies = [
     poster: "https://ingresso-a.akamaihd.net/prd/img/movie/o-morro-dos-ventos-uivantes/c49d48d8-a444-4e81-86cd-18ea1cad5202.webp",
     comment: ""
   },
+  {
+    titlePT: "Pânico 7",
+    titleEN: "Scream 7",
+    date: "2026-03-01",
+    rating: 4,
+    poster: "https://i0.wp.com/www.pretessencias.com.br/wp-content/uploads/2026/01/unnamed-3-1.jpg?resize=800%2C1000p",
+    comment: ""
+  }
 ];
 
 
