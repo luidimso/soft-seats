@@ -39,7 +39,16 @@ const movies = [
     rating: 4,
     poster: "https://i0.wp.com/www.pretessencias.com.br/wp-content/uploads/2026/01/unnamed-3-1.jpg?resize=800%2C1000p",
     comment: ""
-  }
+  },
+  {
+    titlePT: "Cara de Um, Focinho de Outro",
+    titleEN: "Like Owner, Like Dog",
+    date: "2026-03-08",
+    rating: 4,
+    poster: "https://lumiere-a.akamaihd.net/v1/images/image002_4b40247d.jpeg?region=0,163,716,716",
+    comment: ""
+}
+
 ];
 
 
