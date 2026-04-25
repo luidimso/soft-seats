@@ -47,7 +47,32 @@ const movies = [
     rating: 4,
     poster: "https://lumiere-a.akamaihd.net/v1/images/image002_4b40247d.jpeg?region=0,163,716,716",
     comment: ""
+},
+  {
+    titlePT: "The Lines That Define Me 🇯🇵",
+    titleEN: "The Lines That Define Me 🇯🇵",
+    date: "2016-04-04",
+    rating: 5,
+    poster: "https://m.media-amazon.com/images/M/MV5BNzg3NWU3YzItMmIwZi00NTA5LTlkNTYtYWZjNjk3MWZmZTNmXkEyXkFqcGc@._V1_.jpg",
+    comment: "Assistido no ICBJ, experiência especial."
+},
+{
+    titlePT: "Super Mario Galaxy: O Filme",
+    titleEN: "Super Mario Galaxy: The Movie",
+    date: "2026-04-17",
+    rating: 5,
+    poster: "https://m.media-amazon.com/images/M/MV5BMDg5MjRkNWEtYmU1Mi00MTExLTk5MDQtY2RiMWVkZWNiOThjXkEyXkFqcGc@._V1_.jpg",
+    comment: ""
+},
+{
+    titlePT: "Devoradores de Estrela",
+    titleEN: "Project Hail Mary",
+    date: "2026-04-21",
+    rating: 4,
+    poster: "https://image.tmdb.org/t/p/original/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
+    comment: ""
 }
+
 
 ];
 
