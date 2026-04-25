@@ -49,9 +49,9 @@ const movies = [
     comment: ""
 },
   {
-    titlePT: "The Lines That Define Me 🇯🇵",
-    titleEN: "The Lines That Define Me 🇯🇵",
-    date: "2016-04-04",
+    titlePT: "The Lines That Define Me 🎌",
+    titleEN: "The Lines That Define Me 🎌",
+    date: "2026-04-04",
     rating: 5,
     poster: "https://m.media-amazon.com/images/M/MV5BNzg3NWU3YzItMmIwZi00NTA5LTlkNTYtYWZjNjk3MWZmZTNmXkEyXkFqcGc@._V1_.jpg",
     comment: "Assistido no ICBJ, experiência especial."
